@@ -1,6 +1,0 @@
-Hello world program using node.js
-
-First part done using consol.log func ...i.e done locally to check if it is working and the second part done on http by creating an http
-variable and trying to connect to port 8080..
-Obviously nobody was looking for my hello world so it returned an error on the server side..asI searched my own local port
-
