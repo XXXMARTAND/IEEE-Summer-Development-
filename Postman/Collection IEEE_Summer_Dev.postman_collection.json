@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "da3481d8-0364-415c-af63-5995f0be3c6d",
+		"name": "Collection IEEE_Summer_Dev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET  lorderikstark",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://eksplor-api.herokuapp.com/places/api/manipal/restos",
+					"protocol": "https",
+					"host": [
+						"eksplor-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"places",
+						"api",
+						"manipal",
+						"restos"
+					]
+				},
+				"description": "This is a basic request to start with the basics of Postman to \nget a basic request from a REST api \nhttps://eksplor-api.herokuapp.com/places/api/manipal/restos"
+			},
+			"response": [
+				{
+					"name": "GET  lorderikstark First Request places",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://eksplor-api.herokuapp.com/places/api/manipal/restos",
+							"protocol": "https",
+							"host": [
+								"eksplor-api",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"places",
+								"api",
+								"manipal",
+								"restos"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/19.9.0"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 May 2019 14:19:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3374"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"restos\": [\n        {\n            \"address\": \"16-384B, Tiger Circle, Upendra Nagar Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=dollops restaurant Manipal\",\n            \"id\": 1,\n            \"name\": \"Dollops restaurant\",\n            \"rating\": \"4.2\"\n        },\n        {\n            \"address\": \"Opposite Sushma Lodge, parkala road, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Hakuna matata Manipal\",\n            \"id\": 2,\n            \"name\": \"Hakuna matata\",\n            \"rating\": \"4.0\"\n        },\n        {\n            \"address\": \"priemere enclave ground floor, near syndicate circle, manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=DOMINOS PIZZA manipal\",\n            \"id\": 3,\n            \"name\": \"DOMINOS PIZZA\",\n            \"rating\": \"4.0\"\n        },\n        {\n            \"address\": \"manipal store building, near tiger circle Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Snack Shack Manipal\",\n            \"id\": 4,\n            \"name\": \"Snack Shack\",\n            \"rating\": \"4.0\"\n        },\n        {\n            \"address\": \"Behind TMA Pai Smrithi Bhavan, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=The Egg Factory Manipal\",\n            \"id\": 5,\n            \"name\": \"The Egg Factory\",\n            \"rating\": \"4.3\"\n        },\n        {\n            \"address\": \"Central Cinemas, Laxmindra Nagar, Udupi Main Road, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Barbeque Nation Manipal\",\n            \"id\": 6,\n            \"name\": \"Barbeque Nation\",\n            \"rating\": \"4.3\"\n        },\n        {\n            \"address\": \"Vidyaratna Nagar, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Basil Cafe Manipal\",\n            \"id\": 7,\n            \"name\": \"Basil Cafe\",\n            \"rating\": \"4.2\"\n        },\n        {\n            \"address\": \"Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Johnny Rocket Manipal\",\n            \"id\": 8,\n            \"name\": \"Johnny Rocket\",\n            \"rating\": \"3.7\"\n        },\n        {\n            \"address\": \"Hotel green park Eshwar nagar, Manipal, Karnataka - 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Eye of the tiger manipal\",\n            \"id\": 9,\n            \"name\": \"Eye of the tiger \",\n            \"rating\": \"4.2\"\n        },\n        {\n            \"address\": \"Shop No.1, Shiroor Tower, near syndicate circle, udupi road, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=KFC Manipal\",\n            \"id\": 10,\n            \"name\": \"KFC\",\n            \"rating\": \"4.1\"\n        },\n        {\n            \"address\": \"Near Syndicate Circle, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Pizza Hut Manipal\",\n            \"id\": 11,\n            \"name\": \"Pizza Hut\",\n            \"rating\": \"3.9\"\n        },\n        {\n            \"address\": \"near KMC hospital ,opp to galaxy sports, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=SAIBA restaurant Manipal\",\n            \"id\": 12,\n            \"name\": \"SAIBA restaurant \",\n            \"rating\": \"4.0\"\n        },\n        {\n            \"address\": \"Manipal-udupi road, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Bacchus Inn Manipal\",\n            \"id\": 13,\n            \"name\": \"Bacchus Inn \",\n            \"rating\": \"4.2\"\n        },\n        {\n            \"address\": \"Central Cinemas, Laxmindra Nagar, Udupi Main Road, Manipal, Karnataka 576104\",\n            \"co-ordinates\": \"geo:0,0?q=Onesta Pizzeria Manipal\",\n            \"id\": 14,\n            \"name\": \"Onesta Pizzeria\",\n            \"rating\": \"4.4\"\n        },\n        {\n            \"address\": \"End point road, Manipal, Karnataka-576104\",\n            \"co-ordinates\": \"geo:0,0?q=Yes Desi Firangi manipal\",\n            \"id\": 15,\n            \"name\": \"Desi Firangi \",\n            \"rating\": \"3.7\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
