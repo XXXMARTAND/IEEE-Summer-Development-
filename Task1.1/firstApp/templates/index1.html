@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Welcome to the Random Portal</h1>
+<form action='/randomDice'>
+    <input type="submit" value="Random Dice">
+</form>
+<form action='/coinToss'>
+    <input type="submit" value="Coin Toss">
+</form>
+<form action='/randomChance' method='post'>
+    <input type="submit" value="Random Chance">
+</form>
+
+{% endblock %}

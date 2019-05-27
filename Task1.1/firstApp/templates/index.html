@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Register For Greetings</h1>
+    <form action="/register" method="post">
+        <input autofocus autocomplete='disabled' name="name" placeholder="Name" type="text">
+        <select name="Gender">
+            <option disabled selected name="Gender">Gender</option>
+            <option name="Male">Male</option>
+            <option name="Female">Female</option>
+        </select>
+         Email:<input name = "emailAddress" placeholder="someone@example.com" type="email">
+        <input type="submit" value='register'>
+    </form>    
+{% endblock %}
+
