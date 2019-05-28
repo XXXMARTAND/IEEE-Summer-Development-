@@ -18,7 +18,7 @@ def coinToss():
     coinToss = "HEADS" if rand == 1 else "TAILS"
     return render_template("coinToss.html", coinToss=coinToss)
 
-@app.route('/randomChance', methods=["POST", "GET"])
+@app.route('/randomChance', methods=["POST"])
 def randomChance():
     f = open("chances.txt", "a")
     name = request.form.get('name')
@@ -29,7 +29,7 @@ def randomChance():
     f = open("chances.txt", "r") 
     newList = [i for i in f.readlines()]
     rand = random.randint(0, len(newList) - 1)
-    return render_template("random.html" randlist=newlist[rand])
+    return render_template("random.html", randlist=newList[rand])
   
 
 
