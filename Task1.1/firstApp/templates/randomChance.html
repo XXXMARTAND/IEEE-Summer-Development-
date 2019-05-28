@@ -1,0 +1,13 @@
+{% extend 'layout.html' %}
+
+{% block body %}
+<form action="/randomChance" method="post">
+    <input type="submit" value="Feeling Random:))">
+    <h2>Or add Randomness</h2>
+    <input autofocus name="name" placeholder="Event" type="text">    
+</form>
+<form action="/randomChance" method="get">
+    <h2>Or add Randomness</h2>
+    <input autofocus name="name" placeholder="Event" type="text">    
+</form>
+{% endblock %}
