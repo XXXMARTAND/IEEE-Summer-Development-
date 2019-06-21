@@ -7,7 +7,7 @@ Your task involves the following
 <ul>
   <li>Install MySQL Sever and client and read upon basics of MySQL from the resources</li>
   <li>Read about Primary Keys and foriegn keys and how they work</li> 
-  <li>Write and execute queries for the list of action given in  file, queries.txt </li>
+  <li>Write and execute queries for the list of action given in  file, Queries.md </li>
   
   </ul>
 
