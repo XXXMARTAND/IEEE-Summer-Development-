@@ -11,7 +11,7 @@ Your task involves the following
   
   </ul>
 
-Sql is a part of CS-related branches' cirriculum, so these branches will be learning more about SQL Theory. It's not necessary at this moment but you can read more about them. 
+Sql(DBS) is a part of CS-related branches' cirriculum, so these branches will be learning more about SQL Theory. It's not necessary at this moment but you can read more about it. 
 
 ### NOTE: You can write your queries in notepad or a text editor and then copy paste to CLI. This will make debugging easy. 
 
