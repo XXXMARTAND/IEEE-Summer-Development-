@@ -1,4 +1,4 @@
-###Table Schema:
+### Table Schema:
 
 Hotel (Hotel_No, Name, Address)
 
@@ -10,9 +10,9 @@ Guest (Guest_No, Name, Address)
 
 Link these using appropriate Keys
 
-####ADD DUMMY DATA TO THESE TABLES TO EXECUTE OPERATIONAL QUERIES
+#### ADD DUMMY DATA TO THESE TABLES TO EXECUTE OPERATIONAL QUERIES
 
-###Simple Queries
+### Simple Queries
 
 1. List full details of all hotels.
 
@@ -28,7 +28,7 @@ price.
 5. List the bookings for which no date_to has
 been specified.
 
-###Subqueries and Joins
+### Subqueries and Joins
 
 1. List the price and type of all rooms at the Grosvenor
 Hotel.
@@ -48,7 +48,7 @@ Grosvenor Hotel.
 6. What is the lost income from unoccupied rooms at the
 Grosvenor Hotel?
 
-###Grouping
+### Grouping
 
 1. List the number of rooms in each hotel.
 
