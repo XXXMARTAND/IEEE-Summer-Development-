@@ -18,6 +18,9 @@ Sql is a part of CS-related branches' cirriculum, so these branches will be lear
 ## RESOURCES
 
 http://www.mysqltutorial.org/basic-mysql-tutorial.aspx
+
 https://www.tutorialspoint.com/mysql/mysql-create-database.htm
+
 https://www.w3schools.com/sql/sql_primarykey.asp
+
 https://www.w3schools.com/sql/sql_foreignkey.asp
