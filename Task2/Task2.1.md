@@ -1,6 +1,6 @@
 ## Task 2.1
 
-### Deadline :24 May, 23:59
+### Deadline :24 June, 23:59
 
 The main aim of this task is understanding and installing MySQL and running few basic queries using MySQL CLI. MySQL is an open source relational database management client. Various types of data is stored into a database in form of tables. Its a relational Database Management System (RDMS). Queries are executed and results are displayed simultaneously.
 Your task involves the following 
